@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -13,11 +13,19 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /*Shorthand - background
+              color > image > position > repeat > [size] > attachment
+
+              Poderíamos escrever simplesmente:
+              background: color url('imagens/wallpaper002.jpg' center center no-repeat cover fixed)
+            */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +36,9 @@
 <body>
     <main>
         <h1>Teste de imagem com fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quia illum dolorum minima architecto natus labore ex dignissimos, nobis, distinctio asperiores blanditiis nostrum sint error suscipit quas deleniti amet quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda cumque voluptas rem iste laudantium officiis nesciunt itaque et repellendus optio maxime tempora, nisi quisquam id, sed, consequuntur ab quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero voluptatum porro animi reprehenderit molestias nemo repellendus quo qui vitae dolorum. Nam at iusto deleniti quo totam tempora nostrum fuga. Quod.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quia illum dolorum minima architecto natus labore ex dignissimos, nobis, distinctio asperiores blanditiis nostrum sint error suscipit quas deleniti amet quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda cumque voluptas rem iste laudantium officiis nesciunt itaque et repellendus optio maxime tempora, nisi quisquam id, sed, consequuntur ab quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero voluptatum porro animi reprehenderit molestias nemo repellendus quo qui vitae dolorum. Nam at iusto deleniti quo totam tempora nostrum fuga. Quod.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quia illum dolorum minima architecto natus labore ex dignissimos, nobis, distinctio asperiores blanditiis nostrum sint error suscipit quas deleniti amet quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda cumque voluptas rem iste laudantium officiis nesciunt itaque et repellendus optio maxime tempora, nisi quisquam id, sed, consequuntur ab quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero voluptatum porro animi reprehenderit molestias nemo repellendus quo qui vitae dolorum. Nam at iusto deleniti quo totam tempora nostrum fuga. Quod.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quia illum dolorum minima architecto natus labore ex dignissimos, nobis, distinctio asperiores blanditiis nostrum sint error suscipit quas deleniti amet quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda cumque voluptas rem iste laudantium officiis nesciunt itaque et repellendus optio maxime tempora, nisi quisquam id, sed, consequuntur ab quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero voluptatum porro animi reprehenderit molestias nemo repellendus quo qui vitae dolorum. Nam at iusto deleniti quo totam tempora nostrum fuga. Quod.</p>
     </main>
 </body>

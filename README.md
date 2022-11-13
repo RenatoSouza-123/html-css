@@ -4,3 +4,5 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
 
  <a href="https://renatosouza-123.github.io/html-css/desafios/desafio10/android.html" target="_blank">Executar o desafio 10 </a>
+
+ <a href="https://renatosouza-123.github.io/projeto-cordel/" target="_blank">Executar o desafio 12 </a>

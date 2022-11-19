@@ -13,14 +13,20 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off"> <!--Para desligar o autocomplete-->
-        <p><label for="inome">Nome:</label> <!--não se faz formulário sem relacionar a label ao seu input-->
-            <input type="text" name="nome" id="inome"></p>
+    <form action="cadastro.php" method="POST" autocomplete="off"> <!--Para desligar o autocomplete-->
+        <p>
+            <label for="inome">Nome:</label> <!--não se faz formulário sem relacionar a label ao seu input-->
+            <input type="text" name="nome" id="inome">
+        </p>
             <!--Para que a linguagem php funcione corretamente, é necessário que todo objeto de input tenha uma entrada
                 Para o html e php, o nome é mais importante
-                Para o js, o id é mais importante-->
-        <p><label for="isobrenome">Sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome"></p>
+                Para o js e para a label, o id é mais importante-->
+                <!--GET: para dados não sensíveis, para compartilhar URL's, limite de até 3 mil bytes-->
+                <!--POST dados sensíveis, dados não aparecem na URL, envio de arquivos, mais de 3 mil bytes-->
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
         <input type="submit" value="Enviar">
     </form>
 </body>
